@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 header {
     background-image: url("../imagenes/fondo_cabecera_plusenergy.png");
     background-repeat: no-repeat;
@@ -60,4 +61,13 @@ main h2 {
     color: white;
     padding: 10px 16px;
     border-radius: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: darkgreen;
+    padding: 12px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
