@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    margin-top: 20px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.item {
+    border-radius: 15px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+.item:active {
+    visibility: hidden;
+}
