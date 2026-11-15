@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Berkshire Swash", serif;
+}
+
+header {
+    background-color: #7b2c08;
+    color: #f8bd3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor_buscador {
+    display: flex;
+    border-radius: 1000px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    background-color: #f8bd3d;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    padding: 8px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7b2c08;
+}
+
+main {
+    background-image: url("../imagenes/fondo_exotic_christmas.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+main h2 {
+    color: #f8bd3d;
+    background-color: #7b2c08;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor_galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 300px);
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.item_galeria {
+    background-color: #7b2c08;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.item_galeria p {
+    color: #f8bd3d;
+}
+
+.item_galeria img {
+    width: 100%;
+    height: 200px;
+}
+
+.item_galeria_detalles {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.item_galeria_detalles button {
+    background-color: #f8bd3d;
+    padding: 3px 18px;
+    color: #7b2c08;
+    border-radius: 30px;
+    border: none;
+}
+.item_galeria_detalles span {
+    font-size: 1.9em;
+    color: #f8bd3d;
+}
