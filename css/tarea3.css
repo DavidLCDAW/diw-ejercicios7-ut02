@@ -12,16 +12,37 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 10vh;
 }
 
 .contenedor_buscador {
     display: flex;
     border-radius: 1000px;
+    width: 20%;
+}
+
+.contenedor_buscador input {
+    text-align: center;
+    width: 90%;
+    border-start-start-radius: 50px;
+    border-end-start-radius: 50px;
+
+    border: none;
+}
+
+.contenedor_buscador button {
+    padding: 4px 14px;
+    height: 100%;
+    background-color: #f8bd3d;
+    border: none;
+
+    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
 }
 
 header img {
     width: 100px;
-    height: 100px;
+    height: 100%;
 }
 
 nav {
@@ -29,7 +50,8 @@ nav {
     display: flex;
     justify-content: space-around;
     font-size: 1.2em;
-    padding: 8px 0;
+    height: 5vh;
+    align-items: center;
 }
 
 nav a {
@@ -40,7 +62,7 @@ nav a {
 main {
     background-image: url("../imagenes/fondo_exotic_christmas.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
 }
 
 main h2 {
