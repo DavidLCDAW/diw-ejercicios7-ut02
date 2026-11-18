@@ -26,8 +26,12 @@ header {
 }
 .iconos div {
     text-align: center;
+    cursor: pointer;
 }
 
+.iconos div:hover {
+    color: orange;
+}
 header img {
     width: 100px;
     height: 100px;
